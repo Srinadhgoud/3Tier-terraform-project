@@ -195,7 +195,7 @@ ingress {
 }
 #creating WEB-SERVERS 
 resource "aws_instance" "web-server-1" {
-    ami = ""
+    ami = "ami-0fef2f5dd8d0917e8"
     instance_type = "t2.micro"
     key_name = "irelandkey"
     availability_zone = "eu-west-1a"
@@ -208,7 +208,7 @@ resource "aws_instance" "web-server-1" {
   
 }
 resource "aws_instance" "web-server-2" {
-    ami = ""
+    ami = "ami-0fef2f5dd8d0917e8"
     instance_type = "t2.micro"
     key_name = "irelandkey"
     availability_zone = "eu-west-1a"
